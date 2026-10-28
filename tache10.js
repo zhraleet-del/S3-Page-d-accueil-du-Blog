@@ -1,22 +1,3 @@
-let mots = ["chat", "ordinateur", "table", "programmation", "js"];
-let motsLongs = 0;
-for (let i = 0; i < mots.length; i++) {
-    if (mots[i].length > 5) {
-        motsLongs++;
-    }
-}
-console.log(motsLongs);
-
-let nombres = [4, 7, 2, 9, 5, 8];
-let sommePairs = 0;
-for (let i = 0; i < nombres.length; i++) {
-    if (nombres[i] % 2 === 0) {
-        sommePairs = sommePairs + nombres[i];
-    }
-}
-console.log(sommePairs);
-
-
 let panier = [15, 42, 5, 89, 12, 50, 8];
 
 let somme = 0;
