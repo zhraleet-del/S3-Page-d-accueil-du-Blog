@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f4f0;
+    color: #222222;
+    line-height: 1.6;
+}
+header {
+    padding: 20px 6%;
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 45px;
+    height: 45px;
+    margin-right: 12px;
+}
+.logo h1 {
+    font-size: 25px;
+    margin: 0;
+}
+nav {
+    margin-top: 20px;
+}
+nav a {
+    display: inline-block;
+    color: #333333;
+    margin-right: 25px;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #222222;
+    background-color:#e9e8e5 ;
+    border-radius: 25px;
+    font-weight: bold;
+} 
+nav a:hover {
+    background-color: #d2d0cc;
+}
+.project-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 40px 6%;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: white;
+}
+.project-text {
+    width: 60%;
+}
+.category {
+    color: #777777;
+    font-weight: bold;
+}
+.project-text h2 {
+    font-size: 40px;
+    margin: 15px 0;
+    background-color: #eee9e0;
+    padding: 15px;
+}
+.description {
+    font-size: 18px;
+}
+.info {
+    color: #777777;
+    font-size: 14px;
+}
+.project-images {
+    width: 32%;
+    height: auto;
+}
+.article {
+    margin: 40px 6%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 25px;
+}
+.article h2 {
+    font-size: 28px;
+    margin-top: 35px;
+    color: #333333;
+}
+.article p {
+    font-size: 17px;
+    color: #555555;
+}
+.idea-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+    gap: 30px;
+}
+.idea-text {
+    width: 65%;
+}
+.idea-section img {
+    width: 25%;
+    height: auto;
+}
+.article ul {
+    padding-left: 25px;
+    color: #555555;
+}
+.article li {
+    margin-bottom: 10px;
+}
+footer {
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+}
