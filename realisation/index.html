@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Planner Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="top-header">
+        <div class="logo">
+            <span class="cat-logo">🐱</span>
+            <div>
+                <h1>Study Planner</h1>
+                <p>Plan · Study · Achieve</p>
+            </div>
+        </div>
+        <nav class="top-nav">
+            <a href="#" class="active">⌂ Dashboard</a>
+            <a href="#">☷ My Tasks</a>
+            <a href="#">▦ Calendar</a>
+            <a href="#">▤ Notes</a>
+        </nav>
+        <input type="text" placeholder="⌕  Search anything..." class="search">
+        <span class="small-cat">🐱</span>
+    </header>
+    <div class="page">
+        <aside class="sidebar">
+            <nav class="side-nav">
+                <a href="#" class="selected">⌂ &nbsp; Dashboard</a>
+                <a href="#">☷ &nbsp; My Tasks</a>
+                <a href="#">▦ &nbsp; Calendar</a>
+                <a href="#">▤ &nbsp; Notes</a>
+                <a href="#">⚙ &nbsp; Settings</a>
+            </nav>
+            <div class="sidebar-bottom">
+                <div class="sleeping-cat">🐱💤</div>
+                <p>Small steps</p>
+                <p>Big dreams</p>
+                <span>♡</span>
+            </div>
+        </aside>
+        <main class="dashboard">
+            <div class="content">
+                <section class="left-column">
+                    <div class="welcome card">
+                        <div class="welcome-cat">🐱📖</div>
+                        <div>
+                            <h2>Good morning, Fatima!</h2>
+                            <p>Let's make today productive. ♡</p>
+                        </div>
+                        <span class="sun">☼</span>
+                    </div>
+                    <div class="statistics">
+                        <div class="stat-card card">
+                            <span class="stat-icon">☷</span>
+                            <div>
+                                <p>Tasks today</p>
+                                <h2>4</h2>
+                            </div>
+                        </div>
+                        <div class="stat-card card">
+                            <span class="stat-icon">✓</span>
+                            <div>
+                                <p>Completed</p>
+                                <h2>1</h2>
+                            </div>
+                        </div>
+                        <div class="stat-card card">
+                            <span class="stat-icon">◷</span>
+                            <div>
+                                <p>Study time</p>
+                                <h2>3h</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tasks card">
+                        <div class="section-heading">
+                            <h2>Today's tasks</h2>
+                            <button>＋ Add task</button>
+                        </div>
+                        <div class="task-row">
+                            <input type="checkbox" checked>
+                            <strong>Math</strong>
+                            <p>— Exercise 3</p>
+                            <span class="priority high">High</span>
+                        </div>
+                        <div class="task-row">
+                            <input type="checkbox">
+                            <strong>English</strong>
+                            <p>— Read chapter 2</p>
+                            <span class="priority medium">Medium</span>
+                        </div>
+                        <div class="task-row">
+                            <input type="checkbox">
+                            <strong>Project</strong>
+                            <p>— Finish the design</p>
+                            <span class="priority high">High</span>
+                        </div>
+                        <div class="task-row">
+                            <input type="checkbox">
+                            <strong>Science</strong>
+                            <p>— Revision</p>
+                            <span class="priority low">Low</span>
+                        </div>
+                    </div>
+                    <div class="activity card">
+                        <div class="activity-heading">
+                            <h2>Weekly study activity</h2>
+                            <p>12.5 hours total</p>
+                        </div>
+                        <div class="chart">
+                            <div class="day">
+                                <div class="bar dark-bar monday"></div>
+                                <p>Mon</p>
+                            </div>
+                            <div class="day">
+                                <div class="bar tuesday"></div>
+                                <p>Tue</p>
+                            </div>
+                            <div class="day">
+                                <div class="bar wednesday"></div>
+                                <p>Wed</p>
+                            </div>
+                            <div class="day">
+                                <div class="bar dark-bar thursday"></div>
+                                <p>Thu</p>
+                            </div>
+                            <div class="day">
+                                <div class="bar friday"></div>
+                                <p>Fri</p>
+                            </div>
+                            <div class="day">
+                                <div class="bar saturday"></div>
+                                <p>Sat</p>
+                            </div>
+                            <div class="day">
+                                <div class="bar sunday"></div>
+                                <p>Sun</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="right-column">
+                    <div class="date-card card">
+                        <h3>▦ &nbsp; Monday, October 12</h3>
+                        <div class="progress-text">
+                            <p>Your progress</p>
+                            <strong>65%</strong>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+                    <div class="goal card">
+                        <h2>◎ Weekly goal</h2>
+                        <div class="goal-content">
+                            <div class="circle">
+                                <strong>65%</strong>
+                            </div>
+                            <div>
+                                <h3>13 / 20 hours</h3>
+                                <p>Keep going! You're almost there.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="upcoming card">
+                        <h2>Upcoming</h2>
+                        <div class="upcoming-task">
+                            <span>◷</span>
+                            <strong>Biology revision</strong>
+                            <small>2:00 PM</small>
+                        </div>
+                    </div>
+                    <div class="break-card">
+                        <div class="break-cat">🐱💤</div>
+                        <div>
+                            <h2>Take a break!</h2>
+                            <p>You're doing great.</p>
+                            <p>Rest matters too. ♡</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

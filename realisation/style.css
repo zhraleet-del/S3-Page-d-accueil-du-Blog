@@ -1,0 +1,410 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #faf9f6;
+    color: #292824;
+    font-family: Arial, sans-serif;
+}
+.top-header {
+    height: 115px;
+    padding: 20px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dedbd4;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.cat-logo {
+    font-size: 40px;
+}
+.logo h1 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 28px;
+    margin: 0;
+}
+.logo p {
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin: 5px 0 0;
+}
+.top-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.top-nav a {
+    text-decoration: none;
+    color: #292824;
+    padding: 16px;
+    border-radius: 14px;
+}
+.top-nav .active {
+    background-color: #292824;
+    color: white;
+}
+.search {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #dedbd4;
+    border-radius: 30px;
+    background-color: #faf9f6;
+    font-size: 14px;
+}
+.small-cat {
+    font-size: 35px;
+}
+.page {
+    display: flex;
+}
+.sidebar {
+    width: 310px;
+    min-height: 1000px;
+    padding: 35px 25px;
+    border-right: 1px solid #dedbd4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.side-nav a {
+    text-decoration: none;
+    color: #292824;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.side-nav .selected {
+    background-color: #f0eee8;
+}
+.sidebar-bottom {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 23px;
+}
+.sleeping-cat {
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+.sidebar-bottom p {
+    margin: 5px;
+}
+.sidebar-bottom span {
+    font-size: 35px;
+}
+.dashboard {
+    flex: 1;
+    padding: 45px 50px;
+}
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+.left-column {
+    width: 68%;
+}
+.right-column {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.card {
+    background-color: #fcfbf9;
+    border: 1px solid #dedbd4;
+    border-radius: 18px;
+    padding: 25px;
+    margin-bottom: 24px;
+}
+.welcome {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    min-height: 155px;
+}
+.welcome-cat {
+    font-size: 75px;
+}
+.welcome h2 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 30px;
+    margin: 0 0 15px;
+}
+.welcome p {
+    color: #77736c;
+    font-size: 18px;
+    margin: 0;
+}
+.sun {
+    margin-left: auto;
+    font-size: 30px;
+}
+.statistics {
+    display: flex;
+    gap: 18px;
+}
+.stat-card {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 110px;
+}
+.stat-icon {
+    background-color: #292824;
+    color: white;
+    padding: 13px;
+    border-radius: 12px;
+    font-size: 22px;
+}
+.stat-card p {
+    color: #77736c;
+    margin: 0 0 5px;
+}
+.stat-card h2 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 30px;
+    margin: 0;
+}
+.section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dedbd4;
+    padding-bottom: 15px;
+}
+.section-heading h2,
+.activity h2,
+.upcoming h2,
+.goal h2 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+.section-heading button {
+    background-color: #fcfbf9;
+    border: 1px solid #dedbd4;
+    border-radius: 13px;
+    padding: 14px;
+    font-size: 15px;
+}
+.task-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    border-bottom: 1px solid #dedbd4;
+}
+.task-row input {
+    width: 24px;
+    height: 24px;
+}
+.task-row strong {
+    font-size: 16px;
+}
+.task-row p {
+    color: #77736c;
+    font-size: 14px;
+}
+.priority {
+    margin-left: auto;
+    padding: 9px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.high {
+    background-color: #f9dfd9;
+    color: #b85e4e;
+}
+.medium {
+    background-color: #eee9dd;
+    color: #806e50;
+}
+.low {
+    background-color: #e6eee6;
+    color: #58745c;
+}
+.activity-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.activity-heading p {
+    color: #77736c;
+    font-size: 14px;
+}
+.chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 200px;
+    margin-top: 25px;
+    border-bottom: 1px solid #dedbd4;
+}
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 12%;
+}
+.bar {
+    width: 55px;
+    background-color: #cbc7bf;
+    border-radius: 8px 8px 0 0;
+}
+.dark-bar {
+    background-color: #4c4a46;
+}
+.monday {
+    height: 75px;
+}
+.tuesday {
+    height: 120px;
+}
+.wednesday {
+    height: 65px;
+}
+
+.thursday {
+    height: 140px;
+}
+
+.friday {
+    height: 100px;
+}
+
+.saturday {
+    height: 125px;
+}
+
+.sunday {
+    height: 85px;
+}
+
+.day p {
+    color: #77736c;
+    font-size: 13px;
+}
+.date-card h3 {
+    font-size: 16px;
+    margin: 0 0 30px;
+}
+
+.progress-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.progress-text p {
+    margin: 0;
+    color: #77736c;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 12px;
+    background-color: #eeece7;
+    border-radius: 10px;
+}
+
+.progress-value {
+    width: 65%;
+    height: 12px;
+    background-color: #292824;
+    border-radius: 10px;
+}
+.goal h2 {
+    margin-bottom: 20px;
+}
+
+.goal-content {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 12px solid #292824;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+
+.goal-content h3 {
+    margin: 0 0 8px;
+}
+
+.goal-content p {
+    color: #77736c;
+    margin: 0;
+    line-height: 1.5;
+}
+.upcoming h2 {
+    margin-bottom: 20px;
+}
+
+.upcoming-task {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #dedbd4;
+    border-radius: 13px;
+    padding: 18px;
+}
+
+.upcoming-task span {
+    font-size: 25px;
+}
+
+.upcoming-task strong {
+    font-size: 14px;
+}
+
+.upcoming-task small {
+    margin-left: auto;
+}
+.break-card {
+    background-color: #f1e7da;
+    border: 1px solid #dedbd4;
+    border-radius: 18px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.break-cat {
+    font-size: 65px;
+}
+
+.break-card h2 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 23px;
+    font-weight: normal;
+    margin: 0 0 10px;
+}
+
+.break-card p {
+    color: #77736c;
+    margin: 5px 0;
+}
